@@ -15,8 +15,8 @@ export default function Header() {
                 
                 <Link  to={'/cart'}><BiCart className='Bicart' /></Link>
                 
-                <div className='usuariologin'>
-                <Link to={"/user"}><FiUser className='icouser'/></Link><br />
+                <div className='usuariologin'></div>
+                <div><Link to={"/user"}><FiUser className='icouser'/></Link><br />
                 <Link className='abacadastro' to={'/Cadastro'}>Cadastro   |      </Link>
                 <Link className='abalogin' to={'/Login'}>  Login</Link>
                 </div>
