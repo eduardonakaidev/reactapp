@@ -1,0 +1,56 @@
+.navegation{
+    padding: 15px 20px 20px 20px;
+    background: rgb(93, 145, 127);
+    
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.buttonH{
+    background: rgb(116, 116, 252);
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    
+    color: blue;
+    
+}
+.buttonS{
+    background: rgb(116, 116, 252);
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: blue;
+}
+.buttonC{
+    background: rgb(116, 116, 252);
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: blue;
+}
+.buttonT{
+    background: rgb(116, 116, 252);
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: blue;
+}
+.buttonHip{
+    background: rgb(116, 116, 252);
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: blue;
+}
+.barranavegacao{
+    
+}
+
+
