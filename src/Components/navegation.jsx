@@ -2,6 +2,8 @@ import {} from 'react'
 import '../styles/StyleNavigation.css'
 import { Link } from 'react-router-dom'
 
+
+
 export default function Navegacao(){
     return(
         <div>
@@ -13,6 +15,7 @@ export default function Navegacao(){
                 <Link className='buttonHip' to={'/Hipercaloricos'}>Hipercaloricos</Link>
                 <Link className='buttonT' to={'/Termogenicos'}>Termogenicos</Link>
                 </div>
+                
                 
                 
                 

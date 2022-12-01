@@ -1,0 +1,52 @@
+.Tela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Caixa{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    border: 1px solid black;
+    max-width: 50%;
+    max-height: 50%;
+    margin-top: 0.5%;
+    padding: 4em;
+    border-radius: 1em;
+
+    background: rgb(224, 221, 24);
+}
+
+.Logom{
+    max-width: 30%;
+    max-height: 30%;
+
+
+
+}
+.Input{
+    width: 95%;
+    height: 10%;
+    margin-top: 2em;
+    padding: 0.5em;
+    font-size: 1.3em;
+
+    border-radius: 0.2em;
+
+}
+.Botao{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 1em;
+    font-size: 1.4em;
+    border-radius: 0.3em;
+    
+    
+
+}
