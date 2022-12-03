@@ -1,15 +1,12 @@
 import {} from 'react'
+import RoutesApp from './rotas';
 
-import '../src/styles/Principal.css'
-import Navegacao from './Components/navegation';
-
-import Routes from './rotas';
 
 
 export default function App(){
   return(
      
-      <Routes/>
+      <RoutesApp/>
       
         
       

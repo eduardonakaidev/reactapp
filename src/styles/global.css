@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    flex-direction: column;
     
 }
 
 .Main{
     display: flex;
-    flex-direction: row;
+    
     flex-wrap: wrap;
     padding-left: 70px;
  

@@ -1,6 +1,3 @@
-*{
-  margin: 0;
-}
 .upbarra{
     display: flex;
     
@@ -8,6 +5,8 @@
    flex-direction: row;
     background-color: rgb(228, 224, 15);
     height: 125px;
+    width: 100%;
+   
     
 }
 
@@ -15,19 +14,41 @@
   height: 75px;
   width: 75px;
   color: black;
-  margin-left: 300px;
+  
   
 }
+
+.boxcar{
+  position: absolute;
+  margin-top: 30px;
+  right: 24.2%;
+  
+}
+.boxcar:hover{
+  height: 20px;
+}
+
+
+.posicart{
+  margin-left: 100px;
+}
 .icouser{
-  width: 50px;
+  width: 112px;
   height: 50px;
+  transition: 1s;
+  color: black;
+  
+}
+.icouser:hover{
+  color: red;
   
 }
 .usuariologin{
-  margin-left: 3em;
-  text-decoration: none;
+  margin-left: 9em;
+  
   
 }
+
 .abalogin{
   text-decoration: none;
 }
@@ -35,7 +56,7 @@
   text-decoration: none;
 }
 .pesquisa{
-  width: 380px;
+  width: 420px;
   height:  50px;
   border-radius: 10px;
   border: 1px solid black;
@@ -43,24 +64,29 @@
   font-size: 18px;
   padding: 16px;
   margin-left: 100px;
-  background: rgb(245, 245, 245);
+  background: rgb(250, 248, 112);
+  
 }
+
 .namelogo{
   font-size: 40px;
+  text-decoration: none;
+  margin-left: 15px;
   
+}
+.logoEJ{
+  margin-left: 20px;
 }
 .Logo{
    border: 0px;
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   max-width: 20%;
-   
-    
-
+  
 }
+
 .LogoImg{
-  max-width: 30%;
-  margin-left: 3em;
+  height: 100px;
+  width: 100px
+}
+#listabarra{
+  box-decoration-break: none;
 }
 

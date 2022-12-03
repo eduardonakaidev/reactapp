@@ -1,57 +1,77 @@
 .navegation{
     padding: 15px 20px 20px 20px;
-    background: rgb(93, 145, 127);
+    background: rgb(137, 175, 88);
     
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 1px;   
+    
 
 }
 .buttonH{
     background: rgb(116, 116, 252);
     font-size: 20px;
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
+    
     text-decoration: none;
     
     color: blue;
     
+}
+.buttonH:hover{
+    background: rgb(99, 99, 243) ; 
+
 }
 .buttonS{
     background: rgb(116, 116, 252);
     font-size: 20px;
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
     color: blue;
+}
+.buttonS:hover{
+    background: rgb(99, 99, 243) ; 
 }
 .buttonC{
     background: rgb(116, 116, 252);
     font-size: 20px;
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
     color: blue;
+}
+.buttonC:hover{
+    background: rgb(99, 99, 243) ; 
 }
 .buttonT{
     background: rgb(116, 116, 252);
     font-size: 20px;
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
     color: blue;
+}
+.buttonT:hover{
+    background: rgb(99, 99, 243); 
 }
 .buttonHip{
     background: rgb(116, 116, 252);
     font-size: 20px;
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
     color: blue;
 }
-.barranavegacao{
+.buttonHip:hover{
+    background: rgb(99, 99, 243); 
     
 }
+
 
 
 

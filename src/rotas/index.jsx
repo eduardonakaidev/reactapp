@@ -18,7 +18,7 @@ export default function RoutesApp() {
         <BrowserRouter>
             <Routes>
                 <Route element={< Home />} path="/" exact />
-                <Route element={< Suplementos />} path="/Suplementos" />
+                <Route element={< Suplementos />} path="/whey" />
                 <Route element={<CartPage/>} path="/Cart"/>
                 <Route element={<UserScreen/>} path="/Usuario"/>
                 <Route element={<Cadastro/>} path="/Cadastro"/>
